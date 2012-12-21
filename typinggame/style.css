@@ -1,0 +1,133 @@
+a:link, a:visited {
+color: #006EE6
+}
+#wraper {
+	width: 1000px;
+	height: 700px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #eee;
+}
+#game {
+	position: relative;
+	background: #cfc url(../images/bg_body.png) center bottom no-repeat;
+	margin: 10px;
+	margin-top: 0px;
+	height: 620px;
+	border-radius: 20px;
+}
+#game_title {
+	text-align: center;
+	padding: 10px;
+}
+#status {
+	display: none;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	width: 980px;
+	font-size: 28px;
+}
+#caption {
+	display: none;
+	position: relative;
+	top: 10px;
+	text-align: center;
+	font-size: 54px;
+}
+#words {
+	display: none;
+	top: 200px;
+	position: relative;
+	font-size: 46px;
+	font-family: consolas;
+}
+#loading {
+	display: none;
+	top: 140px;
+	position: relative;
+	font-size: 108px;
+}
+#loading span{
+	position: absolute;
+}
+#words span {
+	position: absolute;
+}
+#rule {
+	padding-top: 10px;
+	text-align: center;
+}
+#rules {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+#start {
+	position: absolute;
+	bottom: 50px;
+	left: 415px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CCF;
+	width: 150px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 10px;
+}
+#end {
+	display: none;
+}
+#end_title {
+	position: relative;
+	top: 50px;
+	text-align: center;
+	/*font-size: 54px;*/
+}
+#end_text {
+	position: relative;
+	top: 80px;
+	text-align: left;
+	width: 250px;
+	left: 410px;
+	/*font-size: 36px;*/
+}
+#end_restart {
+	position: absolute;
+	bottom: 50px;
+	left: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #CCF;
+	width: 180px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 10px;
+}
+#bottom {
+	text-align: center;
+}
+#right-pic {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 620px;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	border-radius: 20px;
+}
+#left-pic {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 620px;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	border-radius: 20px;
+}
+table, th, td {
+height: 28px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <title></title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="style_lottery.css">
+
+<select id="prize">
+  <option value ="I">一等奖</option>
+  <option value ="II">二等奖</option>
+  <option value="III">三等奖</option>
+</select>
+
+<div class="lotteryBtn" id="draw" onclick="Lottery(1);">Start
+</div>
+<!-- <div class="title" id="title">
+</div>   -->
+<hr />
+
+
+<div class="current" id="current">
+<div class="line odd">0000000000</div>
+</div>
+<div class="historyTitle">
+History
+<hr />
+<div class="history" id="history">
+</div>
+</div>
+
+
+
+</body>
+<script type="text/javascript" src="draw.js"></script>
+</html>
